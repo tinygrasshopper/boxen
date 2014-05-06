@@ -19,11 +19,6 @@ GITHUBTARBALL
     gcc (2.0.100)
 
 GITHUBTARBALL
-  remote: boxen/puppet-git
-  specs:
-    git (2.3.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.1.0)
@@ -31,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.6.2)
+    homebrew (1.9.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -98,14 +93,19 @@ GITHUBTARBALL
   specs:
     module-data (0.0.3)
 
+GITHUBTARBALL
+  remote: tinygrasshopper/puppet-git
+  specs:
+    git (2.3.1)
+
 DEPENDENCIES
   boxen (= 3.4.2)
   dnsmasq (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
-  git (= 2.3.0)
+  git (= 2.3.1)
   go (= 1.1.0)
-  homebrew (= 1.6.2)
+  homebrew (= 1.9.2)
   hub (= 1.3.0)
   inifile (= 1.0.3)
   module-data (= 0.0.3)
