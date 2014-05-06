@@ -98,6 +98,11 @@ GITHUBTARBALL
   specs:
     git (2.3.1)
 
+GITHUBTARBALL
+  remote: tinygrasshopper/puppet-skype
+  specs:
+    skype (1.0.9)
+
 DEPENDENCIES
   boxen (= 3.4.2)
   dnsmasq (= 1.0.1)
@@ -116,6 +121,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
   ruby (= 7.3.0)
+  skype (= 1.0.9)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   xquartz (= 1.1.1)

@@ -41,7 +41,7 @@ github "module-data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 github "dnsmasq",     "1.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "2.0.100"
-github "git",         "2.3.1", :repo => "tinygrasshopper/puppet-git"
+github "git",         "2.3.1", :repo => "tinygrasshopper/puppet-git" #TODO: Start using master again after >2.3.0 is out.
 github "go",          "1.1.0"
 github "homebrew",    "1.9.2"
 github "hub",         "1.3.0"
@@ -56,6 +56,7 @@ github "ruby",        "7.3.0"
 github "stdlib",      "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
+github "skype",       "1.0.9", :repo => "tinygrasshopper/puppet-skype" #TODO: Go back to the boxen version after they have released > 1.0.8 
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

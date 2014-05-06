@@ -56,6 +56,7 @@ node default {
   include dnsmasq
   include git
   include hub
+  include skype
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
