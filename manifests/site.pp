@@ -60,6 +60,9 @@ node default {
   # Shop2Market custom
   include skype
   include iterm2::stable
+  class { 'vagrant':
+	  version => '1.5.4'
+  }
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

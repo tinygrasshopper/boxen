@@ -57,7 +57,9 @@ github "stdlib",      "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 github "skype",       "1.0.9", :repo => "tinygrasshopper/puppet-skype" #TODO: Go back to the boxen version after they have released > 1.0.8 
-github "iterm2",       "1.0.4"
+github "iterm2",      "1.0.4"
+github "vagrant"
+
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
