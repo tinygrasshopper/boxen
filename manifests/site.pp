@@ -56,7 +56,10 @@ node default {
   include dnsmasq
   include git
   include hub
+
+  # Shop2Market custom
   include skype
+  include iterm2::stable
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
