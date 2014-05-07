@@ -57,23 +57,27 @@ node default {
   include git
   include hub
 
-  # Shop2Market custom
   include skype
   include iterm2::stable
+  include virtualbox
+  include chrome
   class { 'vagrant':
 	  version => '1.5.4'
   }
+  include mongodb
 
-  # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
-
-  # default ruby versions
+ # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
+
+  include mysql
+
+  include java
+  include cassandra
+  include imagemagick 
+
 
   # common, useful packages
   package {
