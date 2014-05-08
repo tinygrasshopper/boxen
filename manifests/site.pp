@@ -77,6 +77,7 @@ node default {
   include java
   include cassandra
   include imagemagick 
+  include redis
 
 
   # common, useful packages

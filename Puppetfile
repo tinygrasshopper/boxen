@@ -65,6 +65,7 @@ github "mysql"
 github "cassandra"
 github "java"
 github "imagemagick"
+github "redis"
 
 
 
