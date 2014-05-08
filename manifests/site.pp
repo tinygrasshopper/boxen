@@ -79,6 +79,10 @@ node default {
   include imagemagick 
   include redis
 
+  package { 'ansible':
+    ensure => present
+  }
+
 
   # common, useful packages
   package {
